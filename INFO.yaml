@@ -1,0 +1,54 @@
+---
+project: 'docs'
+project_creation_date: '2019-05-21'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &tungstenfabric_docs_ptl
+    name: 'Szymon Golebiewski'
+    email: 'szymon.v@gmail.com'
+    id: 'szymonv'
+    company: ''
+    timezone: ''
+primary_contact: *tungstenfabric_docs_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.tungsten.io/projects/'
+    key: 'DOC'
+mailing_list:
+    type: 'groups.io'
+    url: ''
+    tag: '[]'
+realtime_discussion:
+    type: ''
+    server: ''
+    channel: ''
+meetings:
+    - type: ''
+      agenda: ''
+      url: ''
+      server: ''
+      channel: ''
+      repeats: ''
+      time: ''
+repositories:
+    - tungstenfabric/docs
+committers:
+    - <<: *tungstenfabric_docs_ptl
+    - name: ''
+      email: ''
+      company: ''
+      id: ''
+      timezone: ''
+    - name: ''
+      email: ''
+      company: ''
+      id: ''
+      timezone: ''
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'https://wiki.tungsten.io/display/TUN/Projects'
+    changes:
+        - type: 'initial approval'
+          name: ''
+          link: ''
+
